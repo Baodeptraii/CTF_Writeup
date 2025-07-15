@@ -1,0 +1,23 @@
+This is the hardest one for sure
+I'm not play LOL anymore but YASUO have a famous line right ?
+
+Open YASUO with Notepad and you will see 5 pieces of cake he gave us :
+Death_is_like_the_wind-always_by_my_side/piece1.jpg
+Death_is_like_the_wind-always_by_my_side/piece2.mp3
+Death_is_like_the_wind-always_by_my_side/piece3.zip
+Death_is_like_the_wind-always_by_my_side/piece4.png
+Death_is_like_the_wind-always_by_my_side/piece5.png
+
+But how do we open theses file which is hidden in a image ( YASUOOOOOOO ) ?
+Open Kali Linux and use this line "binwalk YASUO.jpg" , we will see what YASUO trying to hide us.
+For sure, there are 5 pieces.
+To open this "binwalk --extract --dd=".*" YASUO.jpg" we can extract all of this into a folder.
+Yep, we need to do lot of work to find all the flag.
+Piece 1: Just open it
+Piece 2: Now i hate Bomman, remove his vocal and decode the Morse
+Piece 3: Find the unzip tool on the Internet
+Piece 4: Use every Forensnic tool you know
+Piece 5: Same as Piece 4
+
+Long work huh
+flag:  miniCTF{DAY_LA_b4l_kh0_Nh47_mA_}_{kong1908}

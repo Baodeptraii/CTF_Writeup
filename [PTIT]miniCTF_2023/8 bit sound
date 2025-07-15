@@ -1,0 +1,5 @@
+If you tried 8 bit sound tool to figure it out but not working ?
+Try Audacity.
+Still not working ?
+Change "Waveform" to "Spectrogram"
+flag: miniCTF{sp3ctrogr4m_c0lorful}

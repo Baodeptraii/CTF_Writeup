@@ -1,0 +1,5 @@
+It's hard to do it in logicly way
+But .... i have another way
+Encrypt " encrypt_flag" to ASCII, we receive weird characters.
+Use encrypt fuction in the code file to encrypt that characters
+flag: miniCTF{4re_y0u_re4dy_t0_r3v3rs3_?}

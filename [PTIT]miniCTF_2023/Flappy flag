@@ -1,0 +1,8 @@
+Just get 15 points.
+But i know you are noob, so try to open Js file to see what happen
+I saw this line "setSessionCookie('session', 15)" 
+Another cookie huh?
+Open Cookie Editor and change value to 1
+Just 1 point and here is your flag:
+flag: miniCTF{1f_u_4r3_4_pr0_pl4y3r_u_c4n_get_th1s_by_IDOR}
+

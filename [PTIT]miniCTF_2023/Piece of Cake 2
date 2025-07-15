@@ -1,0 +1,5 @@
+Similar to Piece of Cake 1 but when you trying to find the last piece is very hard.
+The first piece is inside the Html file, The second one is inside Css file
+The third one will show up when you add "robots.txt" on the search bar.
+The fourth one will show up when you add ".htaccess" on the search bar also.
+flag: miniCTF{411_7h3_p13c35_h4v3_833n_f0und}

@@ -1,0 +1,7 @@
+This is very big folder. Ofc you can open these folders one by one but no one do that.
+Eventhough, if you trying to search for the "special" file, sort by name or day modified, you still miss some hidden file.
+Use Kali Linux to do this.
+You see only the file which we are looking for is not end with a number, that why we have this command line :
+ " find . -type d | grep -E '[^0-9]&' " 
+After that, you will see 5 files end with non-number character. There are our flag
+flag: miniCTF{f0ld3r_w4s_hjdd3n_6y_chjd0k}

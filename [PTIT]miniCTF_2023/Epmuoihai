@@ -1,0 +1,5 @@
+When doing "WEB", the first thing we do is F12 or Ctrl U to view source code.
+Trying to find the password using Ctrl F, you will see this line of code 
+" if(username==="admin"&&password==="miniCTF{4re_U_sur3_th1s_1s_real_flag_?}) " 
+That not our flag for sure, just fill it in the login page and here is the flag:
+flag: miniCTF{EHE_TE_NANDAYO_?}
