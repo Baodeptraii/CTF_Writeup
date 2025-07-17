@@ -11,5 +11,5 @@ The `main.rs` has some syntax errors, they're all basic and even commented in sr
 - How do we return in rust? => `return;`  
 - How do we print out a variable in the println function? => `println!("{}", ...);`
 
-After correct all of them, run the code with `cargo main.rs` and you have the flag.  
+After correct all of them, run the code with `cargo run` and you have the flag (make sure you `cd` to right place.  
 Peace!
