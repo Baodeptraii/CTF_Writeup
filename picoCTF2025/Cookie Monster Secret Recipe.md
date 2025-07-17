@@ -6,5 +6,5 @@ Cookies aren't just for eating - they're also used in web technologies!
 Web browsers often have tools that can help you inspect various aspects of a webpage, including things you can't see directly.  
 
 After login into the website, it said something about "cookie" so i check my cookie after login and i found the text look like decrypt message.  
-`%3D` and the end equal to `=` which really look like Base64. Using Base64 decode to get the flag.  
+There are two `%3D` at the end which equal to `==` in ASCII which really look like Base64. Using Base64 decode to get the flag.  
 Peace!
