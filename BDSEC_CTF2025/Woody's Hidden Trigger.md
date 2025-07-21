@@ -1,4 +1,7 @@
-Cre : namdory
+<img width="530" height="590" alt="image" src="https://github.com/user-attachments/assets/8f530565-f4da-4994-8071-b973c8774684" />  
+
+
+# Cre : namdory
 
 Mở file bằng IDA. Ở hàm main ta có thể thấy lời gọi hàm tới hàm vuln  
 
