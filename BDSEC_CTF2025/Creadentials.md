@@ -2,5 +2,8 @@
 
 Apply this filter in wireshark : `http.request.method == "POST"`.  
 We can see how attacker exploit and login.  
+> eviladmin  
+> admin
+
 Peace!
 
