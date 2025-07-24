@@ -10,7 +10,7 @@ As you can see, there is a `system()` call, and the command is `"/bin/bash -c 'm
 So everytime you run the binary file, i will run this command and print out `md5sum` of the path.  
 So ... what if : we can create a fake `md5sum` file and trick and system to execute it instead of the real one ?  
 There is my script :  
-```
+```vim
 $ echo -e '#!/bin/bash\ncat "$@"' > md5sum
 $ chmod +x md5sum
 $ PATH=:$PATH ./flaghasher
