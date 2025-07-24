@@ -7,7 +7,7 @@ Try comparing N across multiple requests
 
 Tbh i have nothing to say about this challenge...  
 
-```
+```python
 from Crypto.Util.number import long_to_bytes
 
 N = <given_even_N>
