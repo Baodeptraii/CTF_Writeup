@@ -34,7 +34,7 @@ Nhìn vào biến `v8`, nó đang để chừa 2 bytes cuối cùng. Vậy giả
 
 Ý tưởng là `v9` ta nhập tối đa 100 bytes để lưu, `v8` đưa đủ 100 bytes padding và thêm 2 bytes `0xFFFF` nữa để gây Buffer Overflow.  
 
-```
+```python
 import sys
 from pwn import *
 
