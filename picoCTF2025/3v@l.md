@@ -6,7 +6,7 @@ The flag file is /flag.txt
 You might need encoding or dynamic construction to bypass restrictions.  
 
 Easy to see the app can execute any Python code using Flask. `Ctrl + U` to view source code, i saw they using blacklist to void dangerous command:  
-```
+```python
 <!--
     TODO
     ------------
@@ -19,7 +19,7 @@ Our job is writing a payload which does not matching that "keyword" and "regex"
 We will using `__import__('builtins').__import__( <payload> )` to run the command. My idea is using `join` to merge the ASCII number of a char i want to complete payload.  
 Our OS command will be `cat /flag.txt` according to hint number 2.  
 Here my code to encoding a payload:  
-```
+```python
 # This script encodes a shell command into a Python expression that can be executed using `os.popen` or `os.system`.
 # Using it to bypass restrictions on direct command execution.
     
