@@ -28,7 +28,7 @@ enc_hint db 0E8h                        ; DATA XREF: _start↑o
 - `enc_flag` và `enc_hint` đều là `0xE8` ~ có thể là bắt đầu của một mảng giá trị.
 
 Output thu được là `BDSEC` aka kết quả sau khi XOR với khóa, dịch ngược :  
-```
+```bash
 "B" = 0x42 = enc_hint[0] ^ 0xAA  
 → enc_hint[0] = 0x42 ^ 0xAA = 0xE8  
 "D" = 0x44 = enc_hint[1] ^ 0xAA  
@@ -51,7 +51,7 @@ enc_hint = [0xE8, 0xEE, 0xF9, 0xEF, 0xE9]
 
 `Enc_flag` tìm được trong IDA, có thể thấy 5 bytes đầu đã trùng khớp với `enc_hint`, ta chỉ cần XOR những byte còn lại với khóa `0xAA` là tìm được flag.  
 
-```
+```python
 key = 0xAA
 enc_flag = [
     0xE8, 0xEE, 0xF9, 0xEF, 0xE9,
