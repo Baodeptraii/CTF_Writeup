@@ -17,7 +17,7 @@ The notification said, i logged as `admin` successfully but wrong password. So h
 
 As you can see, it's not ASCII text but emoji. That mean we can not write it normaly. So we need to encode it to utf-8. 
 I wrote a python scripts to inject the payload:
-```
+```python
 # {admin_password}{\x00}{padding}{admin_username}{\x00}
 import sys
 payload = "🇦🇩🇲🇮🇳".encode('utf-8') + b"\x00"
