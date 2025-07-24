@@ -32,9 +32,9 @@ Trên Kali thử chạy  lệnh ` checksec vuln1  `
 =>	Đây là một chương trình lý tưởng để khai thác buffer overflow  
 Tiếp theo sẽ đi tìm offset để ghi đè return address  
 B1: Tạo payload cyclic(200)  
-`python3 -c "from pwn import *; print(cyclic(200))" > input.txt  `
+`python3 -c "from pwn import *; print(cyclic(200))" > input.txt  `  
 B2: Sử dụng gdb  
-```
+```vim
 gdb ./vuln1  
 run < input.txt  
 info registers
