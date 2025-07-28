@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 Input only accept characters like: `+-<>[],.`.  
 After searching, i found out it's Brainfuck Program Language.  
-Using [this to encode]([url](https://www.dcode.fr/brainfuck-language)) my payload:  
+Using [this](https://www.dcode.fr/brainfuck-language) to encode my payload:  
 ```python
 __import__('os').system('cat flag.txt')
 ```
