@@ -58,10 +58,16 @@ if __name__ == "__main__":
 
 Input only accept characters like: `+-<>[],.`.  
 After searching, i found out it's Brainfuck Program Language.  
+Look closely, `exec(code)` ~ which execute any code in this function.  
 Using [this](https://www.dcode.fr/brainfuck-language) to encode my payload:  
 ```python
 __import__('os').system('cat flag.txt')
 ```
+But it's said max 200 chars. So the first payload must be:  
+```python
+eval(input())
+```
+It's will allow us to inject code directly. Then just input the first payload.  
 Load it into netcat server and have the flag.  
 Peace!
 
