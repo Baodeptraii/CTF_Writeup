@@ -72,8 +72,8 @@ Shufflin9 my balls...
 Take a pick {1/2/3}: 2
 You picked 7he correct 6all
 
-Well done, here is your reward: flag{742856a9af6264c3eed88587f09ed03b}
+Well done, here is your reward: flag{742856a9af6264c3eed88587f09ed03}
 ```
-
+Peace!
 
 
