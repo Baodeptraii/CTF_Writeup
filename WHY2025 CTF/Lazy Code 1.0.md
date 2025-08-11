@@ -21,7 +21,7 @@ Okay, let's see what is "XORING".
 
 <img width="1148" height="171" alt="image" src="https://github.com/user-attachments/assets/64250e25-e3c8-4d47-9240-ea884beb7676" />  
 
-Let's `XOR` it one by one.  
+Let's `XOR` it one by one. Remember, it must contains `0-38 ~ 39 byte` of characters, include 0x00 if needed.  
 
 ```python
 encrypted_flag = [ // Sorry but this data is from `Lazy Code 2.0`, i'm too lazy to write it again :((( 
