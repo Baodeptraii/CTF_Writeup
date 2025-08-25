@@ -5,8 +5,8 @@ Tải ứng dụng giả mạo từ Vir1 về (`svhost.exe`). Kiểm tra thì th
 upx -d file.exe -o file_unpacked.exe
 ```
 Mở file và phân tích bằng IDA.  
-Hàm quan trọng là `sub_1400016801` (thực hiện kiểm tra và XOR) và mảng dữ liệu `byte_1401436A0` (2920 bytes).  
-Hàm `sub_140001680` kiểm tra mật khẩu = 8 bytes đầu của ảnh (PNG signatur) + với hàm XOR trong kia + 2920 bytes nữa => mật khẩu đầy đủ là " _NoCurrentThreats_ ".  
+Hàm quan trọng là `sub_1400016801` (thực hiện kiểm tra và XOR) và mảng dữ liệu `byte_1401436A0` (2920 bytes) -> Dump mảng dữ liệu ra và lấy giá trị Hex.  
+Hàm `sub_140001680` kiểm tra mật khẩu = 8 bytes đầu của ảnh (PNG signature) + với hàm XOR trong kia + 2920 bytes nữa => mật khẩu đầy đủ là " _NoCurrentThreats_ ".  
 ```
 Hàm sub + mảng dữ liệu + mật khẩu + sử dụng logic reverse và pwntools, XOR ngược lại và khôi phục ảnh png ---> Chat
 ```
