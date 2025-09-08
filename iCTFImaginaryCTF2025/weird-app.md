@@ -77,7 +77,7 @@ in_index = (out_index - i*i) mod (symbols.length())
 ```
 
 Then you have the flag: 
-> Flag: ictf{1_l0v3_@ndr0id_stud103}
+> Flag: ictf{1l0v3@ndr0id_stud103}
 
 Peace!
 
